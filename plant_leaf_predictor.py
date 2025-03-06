@@ -16,7 +16,10 @@ import streamlit.components.v1 as components
 matplotlib.rc("font", family="Tahoma")
 
 # ตั้งค่าธีมสีที่ทันสมัย (พื้นหลังสีเข้ม)
-st.set_page_config(page_title="ระบบวิเคราะห์โรคและการขาดธาตุอาหารจากใบของพืช", layout="wide")
+st.set_page_config(
+    page_title="ระบบวิเคราะห์โรคและการขาดธาตุอาหารจากใบของพืช", 
+    layout="wide",
+    page_icon="images/durian_leaf1.png")
 st.markdown("""
 <style>
     .main {background-color: #121212; padding: 20px;}
